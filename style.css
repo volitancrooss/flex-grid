@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(59, 59, 59);
-    padding: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     
@@ -62,7 +62,7 @@ header ul li a {
     
     padding: 20px;
     background-color: white;
-    margin-top: 80px;
+    margin-top: 65px;
     height: 86vh;
     width: 70%;
     display: flex;
@@ -77,14 +77,13 @@ header ul li a {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    border: 1px solid red;
     width: 100%;
 }
 
 .tarjeta {
     background-color: rgba(216, 216, 216, 0.288);
     padding: 10px 0px 0px 0px;
-    height: 390px;
+    height: 290px;
     width: 100%;
     display:flex;
     border-radius: 1%;
@@ -124,9 +123,26 @@ header ul li a {
     height: 40%;
     
 }
+.div4 {
+    padding-left: 20px;
+}
+
+.div4 p {
+    margin-left: 30px;
+}
+
+.div4 h1 {
+    width: 300px;
+    height: 40%;
+    margin-left: 50px;
+}
+
+.div4 .periodico {
+    margin-left: 60px;
+} 
 
 img {
-    width: 240px;
+    width: 100%;
     border: 1px solid;
     border-radius: 2%;
     margin-top: 10px;
@@ -135,7 +151,8 @@ img {
 }
 
 .imagen-1 {
-    width: 85%;
+    width: 90%;
+    height: 70%;
      
 }
 
@@ -145,12 +162,15 @@ img {
 }
 
 .imagen-3 {
-    height: 550px;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
 }
 
 .imagen-4 {
-    width: 85%;
-    height: 660px;
+    width: 70%;
+    height: 44%;
 }
 
 .imagen-5 {
@@ -159,11 +179,12 @@ img {
 }
 
 .imagen-6 {
-    height: 230px;
-    width: 75%;
+    height: 240px;
+    width: 80%;
 }
 
 .imagen-7 {
-    width: 75%;
-    height: 620px;
+    width: 85%;
+    height: 1150px;
 }
+
